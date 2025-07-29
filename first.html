@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Department of Chemistry - Gujarat Arts & Science College</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="logo.png" alt="College Logo" class="logo" />
+    <h1>Department of Chemistry</h1>
+    <h2>Gujarat Arts and Science College, Ahmedabad</h2>
+    <marquee behavior="scroll" direction="left" class="scrolling-msg">
+      Welcome to the Department of Chemistry | Explore Events, Research, Faculty, and Resources
+    </marquee>
+  </header>
+
+  <nav class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">About</button>
+      <div class="dropdown-content">
+        <a href="#faculty">Faculty</a>
+        <a href="#events">Events</a>
+        <a href="#programs">Special Programs</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Academics</button>
+      <div class="dropdown-content">
+        <a href="timetable.pdf" target="_blank">Time Table</a>
+        <a href="materials.pdf" target="_blank">Study Materials</a>
+        <a href="syllabus.pdf" target="_blank">Syllabus</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Gallery</button>
+      <div class="dropdown-content">
+        <a href="#gallery">Lab Images</a>
+        <a href="#gallery">Events</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Connect</button>
+      <div class="dropdown-content">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="gallery" class="section">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="lab1.jpg" alt="Chemical Lab 1" />
+      <img src="lab2.jpg" alt="Chemical Lab 2" />
+      <img src="event1.jpg" alt="Event 1" />
+      <img src="event2.jpg" alt="Event 2" />
+    </div>
+  </section>
+
+  <section id="faculty" class="section">
+    <h2>Faculty Details</h2>
+    <div class="faculty-card">
+      <img src="prof1.jpg" alt="Prof. A" />
+      <h3>Dr. A. Mehta</h3>
+      <p>Head, Department of Chemistry</p>
+    </div>
+    <div class="faculty-card">
+      <img src="prof2.jpg" alt="Prof. B" />
+      <h3>Dr. B. Patel</h3>
+      <p>Assistant Professor</p>
+    </div>
+    <!-- Add more faculty here -->
+  </section>
+
+  <section id="events" class="section">
+    <h2>Recent Events</h2>
+    <ul>
+      <li>Chemistry Week Celebration - July 2025</li>
+      <li>National Webinar on Green Chemistry</li>
+    </ul>
+  </section>
+
+  <section id="programs" class="section">
+    <h2>Special Programs</h2>
+    <ul>
+      <li>Student Research Fellowship Program</li>
+      <li>Summer Internship in Chemical Labs</li>
+    </ul>
+  </section>
+
+  <section id="student-form" class="section">
+    <h2>Submit Your Details</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="text" placeholder="Enrollment Number" required />
+      <textarea placeholder="Your Message or Query" rows="4"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Department of Chemistry, Gujarat Arts and Science College, Ahmedabad</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
